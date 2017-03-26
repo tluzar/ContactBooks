@@ -11,5 +11,5 @@ public interface ContactDAO {
     public void deleteContact(long id);
     public List<Contact> getAllContacts();
     public Contact getContact(long id);	
-	public List<Contact> getAllContacts(String employeeName);
+    public List<Contact> getAllContacts(String contactName);
 }
