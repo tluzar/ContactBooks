@@ -55,8 +55,8 @@ public class ContactDAOImpl implements ContactDAO {
 		for(Object[] contactObject: contactObjects) {
 			Contact contact = new Contact();
 			long id = ((BigInteger) contactObject[0]).longValue();			
-			String surname = (String) contactObject[1];
-			String name = (String) contactObject[2];
+			String name = (String) contactObject[1];
+			String surname = (String) contactObject[2];
 			String phone = (String) contactObject[3];
 			contact.setId(id);
 			contact.setName(name);
